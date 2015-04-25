@@ -18,26 +18,53 @@
       <div class="jumbotron">
         <h1>Submit Album</h1>
       </div>
-      <ul class="nav nav-pills nav-stacked" role="tablist">
-        <li class="active"><a href="#title" role="tab" data-toggle="tab">Album Title and Artist</a></li>
-        <li><a href="#track" role="tab" data-toggle="tab">Track Information</a></li>
-        <li><a href="#expert" role="tab" data-toggle="tab">Expert Review</a></li>
-      </ul>
-      <div class="tab-content">
-        <div class="tab-pane active" id="title">
-          <p>Title Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ex purus, elementum nec tristique eget, egestas vitae ante. Aenean et ex ipsum. Ut scelerisque ornare est, sollicitudin consectetur urna semper sit amet. Sed ac sem eu augue sodales vehicula ornare eu felis. Donec aliquam id eros at pharetra. Donec ipsum felis, cursus aliquam placerat non, scelerisque vel felis. Ut vel ornare justo. Donec vel elit ut risus molestie pulvinar at quis leo. Phasellus nec nulla ut elit hendrerit cursus sit amet ullamcorper justo. Quisque laoreet dolor nec nisl tincidunt luctus. Aliquam vel condimentum quam. Vivamus pellentesque at nulla id sollicitudin. </p>
-        </div>
-        <div class="tab-pane" id="track">
-          <p>Track Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ex purus, elementum nec tristique eget, egestas vitae ante. Aenean et ex ipsum. Ut scelerisque ornare est, sollicitudin consectetur urna semper sit amet. Sed ac sem eu augue sodales vehicula ornare eu felis. Donec aliquam id eros at pharetra. Donec ipsum felis, cursus aliquam placerat non, scelerisque vel felis. Ut vel ornare justo. Donec vel elit ut risus molestie pulvinar at quis leo. Phasellus nec nulla ut elit hendrerit cursus sit amet ullamcorper justo. Quisque laoreet dolor nec nisl tincidunt luctus. Aliquam vel condimentum quam. Vivamus pellentesque at nulla id sollicitudin. </p>
-        </div>
-        <div class="tab-pane" id="expert">
-          <p>Expert Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ex purus, elementum nec tristique eget, egestas vitae ante. Aenean et ex ipsum. Ut scelerisque ornare est, sollicitudin consectetur urna semper sit amet. Sed ac sem eu augue sodales vehicula ornare eu felis. Donec aliquam id eros at pharetra. Donec ipsum felis, cursus aliquam placerat non, scelerisque vel felis. Ut vel ornare justo. Donec vel elit ut risus molestie pulvinar at quis leo. Phasellus nec nulla ut elit hendrerit cursus sit amet ullamcorper justo. Quisque laoreet dolor nec nisl tincidunt luctus. Aliquam vel condimentum quam. Vivamus pellentesque at nulla id sollicitudin. </p>
+      <div class="panel-group" id="accordion">
+        <div class="panel panel-primary" id="panel1">
+          <div class="panel-heading">
+             <h4 class="panel-title">
+              <a data-toggle="collapse" data-target="#collapseOne" href="#collapseOne">
+                Album Title and Artist
+              </a>
+            </h4>
+          </div>
+          <div id="collapseOne" class="panel-collapse collapse in">
+            <div class="panel-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+          <div class="panel panel-primary" id="panel2">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-target="#collapseTwo" href="#collapseTwo" class="collapsed">
+                  Track Information
+                </a>
+              </h4>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse">
+              <div class="panel-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+            <div class="panel panel-primary" id="panel3">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                <a data-toggle="collapse" data-target="#collapseThree" href="#collapseThree" class="collapsed">
+                  Expert Review
+                </a>
+                </h4>
+              </div>
+              <div id="collapseThree" class="panel-collapse collapse">
+                <div class="panel-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   </body>
